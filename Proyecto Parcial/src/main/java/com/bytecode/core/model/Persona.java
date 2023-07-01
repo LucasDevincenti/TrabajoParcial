@@ -11,8 +11,6 @@ import jakarta.persistence.Table;
 @Table(name="persona")
 
 public class Persona {
-	
-	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
@@ -28,8 +26,6 @@ public class Persona {
 	@Column(name="dni")
 	private int dni;
 	
-	
-	// Getter and Setter
 	
 	public long getId() {
 		return id;
