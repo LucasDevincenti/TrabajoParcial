@@ -26,22 +26,22 @@ public class PersonaController {
 		persona1.setId(6);
 		persona1.setNombre("Jorge");
 		persona1.setApellido("Soria");
-		persona1.setDni(52125487);
-		persona1.setEdad(23);
+		persona1.setDni(12543678);
+		persona1.setEdad(65);
 		
 		Persona persona2 = new Persona();
 		persona2.setId(3);
-		persona2.setNombre("Leonel");
-		persona2.setApellido("Alamo");
+		persona2.setNombre("Lucas");
+		persona2.setApellido("Devincenti");
 		persona2.setDni(95283300);
-		persona2.setEdad(19);
+		persona2.setEdad(21);
 	
 		Persona persona3 = new Persona();
 		persona3.setId(4);
-		persona3.setNombre("Patricia");
+		persona3.setNombre("Ignacio");
 		persona3.setApellido("Movio");
-		persona3.setDni(18930420);
-		persona3.setEdad(57);
+		persona3.setDni(78956412);
+		persona3.setEdad(50);
 		
 		persona.add(persona1);
 		persona.add(persona2);
