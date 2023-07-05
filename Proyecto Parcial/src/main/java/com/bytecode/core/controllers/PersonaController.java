@@ -23,7 +23,7 @@ public class PersonaController {
 		ArrayList<Persona>persona=new ArrayList<>();
 		
 		Persona persona1= new Persona();
-		persona1.setId(6);
+		persona1.setId(5);
 		persona1.setNombre("Jorge");
 		persona1.setApellido("Soria");
 		persona1.setDni(12543678);
@@ -37,7 +37,7 @@ public class PersonaController {
 		persona2.setEdad(21);
 	
 		Persona persona3 = new Persona();
-		persona3.setId(4);
+		persona3.setId(2);
 		persona3.setNombre("Ignacio");
 		persona3.setApellido("Movio");
 		persona3.setDni(78956412);
